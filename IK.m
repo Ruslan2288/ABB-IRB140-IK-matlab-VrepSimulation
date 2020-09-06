@@ -26,8 +26,9 @@ p06=[x y z];
 p04=p06-transpose(d6*R06*[0;0;1]);
 
 
-
-
+xc=p04(1);
+yc=p04(2);
+zc=p04(3);
 
 %Inverse kinematic equations for position
 theta1 = atan2(yc,xc);
